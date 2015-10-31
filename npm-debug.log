@@ -1,0 +1,402 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'public/',
+1 verbose cli   'angular',
+1 verbose cli   'satellizer',
+1 verbose cli   'angular-ui-router',
+1 verbose cli   'bootstrap' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'public/', null ]
+7 verbose cache add name=undefined spec="public/" args=["public/",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'public/',
+8 verbose parsed url   path: 'public/',
+8 verbose parsed url   href: 'public/' }
+9 verbose cache add [ 'angular', null ]
+10 verbose cache add name=undefined spec="angular" args=["angular",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'angular',
+11 verbose parsed url   path: 'angular',
+11 verbose parsed url   href: 'angular' }
+12 verbose cache add [ 'satellizer', null ]
+13 verbose cache add name=undefined spec="satellizer" args=["satellizer",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'satellizer',
+14 verbose parsed url   path: 'satellizer',
+14 verbose parsed url   href: 'satellizer' }
+15 verbose cache add [ 'angular-ui-router', null ]
+16 verbose cache add name=undefined spec="angular-ui-router" args=["angular-ui-router",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'angular-ui-router',
+17 verbose parsed url   path: 'angular-ui-router',
+17 verbose parsed url   href: 'angular-ui-router' }
+18 verbose cache add [ 'bootstrap', null ]
+19 verbose cache add name=undefined spec="bootstrap" args=["bootstrap",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'bootstrap',
+20 verbose parsed url   path: 'bootstrap',
+20 verbose parsed url   href: 'bootstrap' }
+21 silly lockFile a3b7b09d-public public/
+22 verbose lock public/ C:\Users\Leonardo\AppData\Roaming\npm-cache\a3b7b09d-public.lock
+23 silly lockFile 54e0c177-angular angular
+24 verbose lock angular C:\Users\Leonardo\AppData\Roaming\npm-cache\54e0c177-angular.lock
+25 silly lockFile 1dc936e0-satellizer satellizer
+26 verbose lock satellizer C:\Users\Leonardo\AppData\Roaming\npm-cache\1dc936e0-satellizer.lock
+27 silly lockFile ff5f9edb-angular-ui-router angular-ui-router
+28 verbose lock angular-ui-router C:\Users\Leonardo\AppData\Roaming\npm-cache\ff5f9edb-angular-ui-router.lock
+29 silly lockFile 3c71cc99-bootstrap bootstrap
+30 verbose lock bootstrap C:\Users\Leonardo\AppData\Roaming\npm-cache\3c71cc99-bootstrap.lock
+31 silly lockFile 1dc936e0-satellizer satellizer
+32 silly lockFile 1dc936e0-satellizer satellizer
+33 silly lockFile 54e0c177-angular angular
+34 silly lockFile 54e0c177-angular angular
+35 silly lockFile ff5f9edb-angular-ui-router angular-ui-router
+36 silly lockFile ff5f9edb-angular-ui-router angular-ui-router
+37 verbose addNamed [ 'satellizer', '' ]
+38 verbose addNamed [ null, '*' ]
+39 silly lockFile d16bc144-satellizer satellizer@
+40 verbose lock satellizer@ C:\Users\Leonardo\AppData\Roaming\npm-cache\d16bc144-satellizer.lock
+41 silly lockFile a3b7b09d-public public/
+42 silly lockFile a3b7b09d-public public/
+43 verbose addNamed [ 'angular', '' ]
+44 verbose addNamed [ null, '*' ]
+45 silly lockFile fdbbf89d-angular angular@
+46 verbose lock angular@ C:\Users\Leonardo\AppData\Roaming\npm-cache\fdbbf89d-angular.lock
+47 verbose addNamed [ 'angular-ui-router', '' ]
+48 verbose addNamed [ null, '*' ]
+49 silly lockFile f588af00-angular-ui-router angular-ui-router@
+50 verbose lock angular-ui-router@ C:\Users\Leonardo\AppData\Roaming\npm-cache\f588af00-angular-ui-router.lock
+51 silly lockFile 3c71cc99-bootstrap bootstrap
+52 silly lockFile 3c71cc99-bootstrap bootstrap
+53 error addLocal Could not install public/
+54 silly addNameRange { name: 'satellizer', range: '*', hasData: false }
+55 verbose addNamed [ 'bootstrap', '' ]
+56 verbose addNamed [ null, '*' ]
+57 silly lockFile 2571d98f-bootstrap bootstrap@
+58 verbose lock bootstrap@ C:\Users\Leonardo\AppData\Roaming\npm-cache\2571d98f-bootstrap.lock
+59 silly addNameRange { name: 'angular', range: '*', hasData: false }
+60 silly addNameRange { name: 'angular-ui-router', range: '*', hasData: false }
+61 silly addNameRange { name: 'bootstrap', range: '*', hasData: false }
+62 verbose request where is /satellizer
+63 verbose request registry https://registry.npmjs.org/
+64 verbose request id ce6c21718c6d877b
+65 verbose url raw /satellizer
+66 verbose url resolving [ 'https://registry.npmjs.org/', './satellizer' ]
+67 verbose url resolved https://registry.npmjs.org/satellizer
+68 verbose request where is https://registry.npmjs.org/satellizer
+69 info trying registry request attempt 1 at 21:52:04
+70 verbose etag "5RQ5Z0C0I5TFRJP8Z5FQGJBZV"
+71 http GET https://registry.npmjs.org/satellizer
+72 verbose request where is /angular-ui-router
+73 verbose request registry https://registry.npmjs.org/
+74 verbose url raw /angular-ui-router
+75 verbose url resolving [ 'https://registry.npmjs.org/', './angular-ui-router' ]
+76 verbose url resolved https://registry.npmjs.org/angular-ui-router
+77 verbose request where is https://registry.npmjs.org/angular-ui-router
+78 info trying registry request attempt 1 at 21:52:04
+79 verbose etag "CL7RR8ECV3LJ8F1LW7DMFQG7"
+80 http GET https://registry.npmjs.org/angular-ui-router
+81 verbose request where is /angular
+82 verbose request registry https://registry.npmjs.org/
+83 verbose url raw /angular
+84 verbose url resolving [ 'https://registry.npmjs.org/', './angular' ]
+85 verbose url resolved https://registry.npmjs.org/angular
+86 verbose request where is https://registry.npmjs.org/angular
+87 info trying registry request attempt 1 at 21:52:04
+88 verbose etag "6S731EJ6B0P6Z89QVHP33F153"
+89 http GET https://registry.npmjs.org/angular
+90 verbose request where is /bootstrap
+91 verbose request registry https://registry.npmjs.org/
+92 verbose url raw /bootstrap
+93 verbose url resolving [ 'https://registry.npmjs.org/', './bootstrap' ]
+94 verbose url resolved https://registry.npmjs.org/bootstrap
+95 verbose request where is https://registry.npmjs.org/bootstrap
+96 info trying registry request attempt 1 at 21:52:04
+97 verbose etag "BXMM28Z59QDKT3FIFR1UX5X6U"
+98 http GET https://registry.npmjs.org/bootstrap
+99 http 304 https://registry.npmjs.org/bootstrap
+100 silly registry.get cb [ 304,
+100 silly registry.get   { date: 'Thu, 09 Jul 2015 00:52:08 GMT',
+100 silly registry.get     via: '1.1 varnish',
+100 silly registry.get     'cache-control': 'max-age=60',
+100 silly registry.get     etag: '"BXMM28Z59QDKT3FIFR1UX5X6U"',
+100 silly registry.get     age: '0',
+100 silly registry.get     connection: 'keep-alive',
+100 silly registry.get     'x-served-by': 'cache-atl6230-ATL',
+100 silly registry.get     'x-cache': 'HIT',
+100 silly registry.get     'x-cache-hits': '1',
+100 silly registry.get     'x-timer': 'S1436403128.614287,VS0,VE29',
+100 silly registry.get     vary: 'Accept' } ]
+101 verbose etag https://registry.npmjs.org/bootstrap from cache
+102 http 304 https://registry.npmjs.org/angular
+103 silly registry.get cb [ 304,
+103 silly registry.get   { date: 'Thu, 09 Jul 2015 00:52:08 GMT',
+103 silly registry.get     via: '1.1 varnish',
+103 silly registry.get     'cache-control': 'max-age=60',
+103 silly registry.get     etag: '"6S731EJ6B0P6Z89QVHP33F153"',
+103 silly registry.get     age: '0',
+103 silly registry.get     connection: 'keep-alive',
+103 silly registry.get     'x-served-by': 'cache-atl6222-ATL',
+103 silly registry.get     'x-cache': 'HIT',
+103 silly registry.get     'x-cache-hits': '1',
+103 silly registry.get     'x-timer': 'S1436403128.641639,VS0,VE30',
+103 silly registry.get     vary: 'Accept' } ]
+104 verbose etag https://registry.npmjs.org/angular from cache
+105 http 304 https://registry.npmjs.org/angular-ui-router
+106 silly registry.get cb [ 304,
+106 silly registry.get   { date: 'Thu, 09 Jul 2015 00:52:08 GMT',
+106 silly registry.get     via: '1.1 varnish',
+106 silly registry.get     'cache-control': 'max-age=60',
+106 silly registry.get     etag: '"CL7RR8ECV3LJ8F1LW7DMFQG7"',
+106 silly registry.get     age: '0',
+106 silly registry.get     connection: 'keep-alive',
+106 silly registry.get     'x-served-by': 'cache-atl6221-ATL',
+106 silly registry.get     'x-cache': 'MISS',
+106 silly registry.get     'x-cache-hits': '0',
+106 silly registry.get     'x-timer': 'S1436403128.599376,VS0,VE89',
+106 silly registry.get     vary: 'Accept' } ]
+107 verbose etag https://registry.npmjs.org/angular-ui-router from cache
+108 http 304 https://registry.npmjs.org/satellizer
+109 silly registry.get cb [ 304,
+109 silly registry.get   { date: 'Thu, 09 Jul 2015 00:52:08 GMT',
+109 silly registry.get     via: '1.1 varnish',
+109 silly registry.get     'cache-control': 'max-age=60',
+109 silly registry.get     etag: '"5RQ5Z0C0I5TFRJP8Z5FQGJBZV"',
+109 silly registry.get     age: '0',
+109 silly registry.get     connection: 'keep-alive',
+109 silly registry.get     'x-served-by': 'cache-atl6222-ATL',
+109 silly registry.get     'x-cache': 'MISS',
+109 silly registry.get     'x-cache-hits': '0',
+109 silly registry.get     'x-timer': 'S1436403128.628209,VS0,VE87',
+109 silly registry.get     vary: 'Accept' } ]
+110 verbose etag https://registry.npmjs.org/satellizer from cache
+111 silly addNameRange number 2 { name: 'angular', range: '*', hasData: true }
+112 silly addNameRange versions [ 'angular',
+112 silly addNameRange   [ '0.0.1',
+112 silly addNameRange     '0.0.1-1',
+112 silly addNameRange     '0.0.1-2',
+112 silly addNameRange     '0.0.2',
+112 silly addNameRange     '0.0.3',
+112 silly addNameRange     '0.0.4',
+112 silly addNameRange     '1.0.0',
+112 silly addNameRange     '1.0.1',
+112 silly addNameRange     '1.0.2',
+112 silly addNameRange     '1.0.3',
+112 silly addNameRange     '1.0.4',
+112 silly addNameRange     '1.0.5',
+112 silly addNameRange     '1.0.6',
+112 silly addNameRange     '1.0.7',
+112 silly addNameRange     '1.0.8',
+112 silly addNameRange     '1.1.0',
+112 silly addNameRange     '1.1.1',
+112 silly addNameRange     '1.1.2',
+112 silly addNameRange     '1.1.3',
+112 silly addNameRange     '1.1.4',
+112 silly addNameRange     '1.1.5',
+112 silly addNameRange     '1.2.0',
+112 silly addNameRange     '1.2.1',
+112 silly addNameRange     '1.2.2',
+112 silly addNameRange     '1.2.3',
+112 silly addNameRange     '1.2.4',
+112 silly addNameRange     '1.2.5',
+112 silly addNameRange     '1.2.6',
+112 silly addNameRange     '1.2.7',
+112 silly addNameRange     '1.2.8',
+112 silly addNameRange     '1.2.9',
+112 silly addNameRange     '1.2.10',
+112 silly addNameRange     '1.2.11',
+112 silly addNameRange     '1.2.12',
+112 silly addNameRange     '1.2.13',
+112 silly addNameRange     '1.2.14',
+112 silly addNameRange     '1.2.15',
+112 silly addNameRange     '1.2.16',
+112 silly addNameRange     '1.2.17',
+112 silly addNameRange     '1.2.18',
+112 silly addNameRange     '1.2.19',
+112 silly addNameRange     '1.2.20',
+112 silly addNameRange     '1.2.21',
+112 silly addNameRange     '1.2.22',
+112 silly addNameRange     '1.2.23',
+112 silly addNameRange     '1.3.0-rc.5',
+112 silly addNameRange     '1.3.0',
+112 silly addNameRange     '1.3.1',
+112 silly addNameRange     '1.3.2',
+112 silly addNameRange     '1.3.3',
+112 silly addNameRange     '1.3.4-build.3588',
+112 silly addNameRange     '1.2.27',
+112 silly addNameRange     '1.3.4',
+112 silly addNameRange     '1.3.5',
+112 silly addNameRange     '1.3.6',
+112 silly addNameRange     '1.3.7',
+112 silly addNameRange     '1.2.28',
+112 silly addNameRange     '1.3.8',
+112 silly addNameRange     '1.4.0-beta.0',
+112 silly addNameRange     '1.3.9',
+112 silly addNameRange     '1.3.10',
+112 silly addNameRange     '1.4.0-beta.1',
+112 silly addNameRange     '1.4.0-beta.2',
+112 silly addNameRange     '1.3.11',
+112 silly addNameRange     '1.4.0-beta.3',
+112 silly addNameRange     '1.3.12',
+112 silly addNameRange     '1.3.13',
+112 silly addNameRange     '1.4.0-beta.4',
+112 silly addNameRange     '1.3.14',
+112 silly addNameRange     '1.4.0-beta.5',
+112 silly addNameRange     '1.4.0-beta.6',
+112 silly addNameRange     '1.3.15',
+112 silly addNameRange     '1.4.0-rc.0',
+112 silly addNameRange     '1.4.0-rc.1',
+112 silly addNameRange     '1.4.0-rc.2',
+112 silly addNameRange     '1.4.0',
+112 silly addNameRange     '1.3.16',
+112 silly addNameRange     '1.4.1',
+112 silly addNameRange     '1.4.2',
+112 silly addNameRange     '1.3.17' ] ]
+113 verbose addNamed [ 'angular', '1.4.2' ]
+114 verbose addNamed [ '1.4.2', '1.4.2' ]
+115 silly lockFile 31a2cade-angular-1-4-2 angular@1.4.2
+116 verbose lock angular@1.4.2 C:\Users\Leonardo\AppData\Roaming\npm-cache\31a2cade-angular-1-4-2.lock
+117 silly lockFile 31a2cade-angular-1-4-2 angular@1.4.2
+118 silly lockFile 31a2cade-angular-1-4-2 angular@1.4.2
+119 silly lockFile fdbbf89d-angular angular@
+120 silly lockFile fdbbf89d-angular angular@
+121 silly addNameRange number 2 { name: 'satellizer', range: '*', hasData: true }
+122 silly addNameRange versions [ 'satellizer',
+122 silly addNameRange   [ '0.0.0',
+122 silly addNameRange     '1.0.0',
+122 silly addNameRange     '0.1.0',
+122 silly addNameRange     '0.2.0',
+122 silly addNameRange     '0.3.0',
+122 silly addNameRange     '0.3.1',
+122 silly addNameRange     '0.3.2',
+122 silly addNameRange     '0.3.3',
+122 silly addNameRange     '0.4.0',
+122 silly addNameRange     '0.4.1',
+122 silly addNameRange     '0.5.0',
+122 silly addNameRange     '0.6.0',
+122 silly addNameRange     '0.6.1',
+122 silly addNameRange     '0.6.2',
+122 silly addNameRange     '0.6.3',
+122 silly addNameRange     '0.6.4',
+122 silly addNameRange     '0.7.0',
+122 silly addNameRange     '0.7.1',
+122 silly addNameRange     '0.8.0',
+122 silly addNameRange     '0.8.1',
+122 silly addNameRange     '0.8.2',
+122 silly addNameRange     '0.8.3',
+122 silly addNameRange     '0.8.4',
+122 silly addNameRange     '0.8.5',
+122 silly addNameRange     '0.8.6',
+122 silly addNameRange     '0.8.7',
+122 silly addNameRange     '0.8.8',
+122 silly addNameRange     '0.9.0',
+122 silly addNameRange     '0.9.1',
+122 silly addNameRange     '0.9.2',
+122 silly addNameRange     '0.9.3',
+122 silly addNameRange     '0.9.4',
+122 silly addNameRange     '0.10.1',
+122 silly addNameRange     '0.11.0',
+122 silly addNameRange     '0.11.1',
+122 silly addNameRange     '0.11.2' ] ]
+123 verbose addNamed [ 'satellizer', '0.11.2' ]
+124 verbose addNamed [ '0.11.2', '0.11.2' ]
+125 silly lockFile 69e43d9b-satellizer-0-11-2 satellizer@0.11.2
+126 verbose lock satellizer@0.11.2 C:\Users\Leonardo\AppData\Roaming\npm-cache\69e43d9b-satellizer-0-11-2.lock
+127 silly lockFile 69e43d9b-satellizer-0-11-2 satellizer@0.11.2
+128 silly lockFile 69e43d9b-satellizer-0-11-2 satellizer@0.11.2
+129 silly lockFile d16bc144-satellizer satellizer@
+130 silly lockFile d16bc144-satellizer satellizer@
+131 silly addNameRange number 2 { name: 'bootstrap', range: '*', hasData: true }
+132 silly addNameRange versions [ 'bootstrap',
+132 silly addNameRange   [ '0.0.1',
+132 silly addNameRange     '0.0.2',
+132 silly addNameRange     '3.1.1',
+132 silly addNameRange     '3.2.0',
+132 silly addNameRange     '3.3.0',
+132 silly addNameRange     '3.3.1',
+132 silly addNameRange     '3.3.2',
+132 silly addNameRange     '3.3.4',
+132 silly addNameRange     '3.3.5' ] ]
+133 verbose addNamed [ 'bootstrap', '3.3.5' ]
+134 verbose addNamed [ '3.3.5', '3.3.5' ]
+135 silly lockFile 85083644-bootstrap-3-3-5 bootstrap@3.3.5
+136 verbose lock bootstrap@3.3.5 C:\Users\Leonardo\AppData\Roaming\npm-cache\85083644-bootstrap-3-3-5.lock
+137 silly lockFile 85083644-bootstrap-3-3-5 bootstrap@3.3.5
+138 silly lockFile 85083644-bootstrap-3-3-5 bootstrap@3.3.5
+139 silly lockFile 2571d98f-bootstrap bootstrap@
+140 silly lockFile 2571d98f-bootstrap bootstrap@
+141 silly addNameRange number 2 { name: 'angular-ui-router', range: '*', hasData: true }
+142 silly addNameRange versions [ 'angular-ui-router',
+142 silly addNameRange   [ '0.2.7',
+142 silly addNameRange     '0.2.8',
+142 silly addNameRange     '0.2.10',
+142 silly addNameRange     '0.2.11',
+142 silly addNameRange     '0.2.13',
+142 silly addNameRange     '0.2.14',
+142 silly addNameRange     '0.2.15' ] ]
+143 verbose addNamed [ 'angular-ui-router', '0.2.15' ]
+144 verbose addNamed [ '0.2.15', '0.2.15' ]
+145 silly lockFile 4ad6a632-angular-ui-router-0-2-15 angular-ui-router@0.2.15
+146 verbose lock angular-ui-router@0.2.15 C:\Users\Leonardo\AppData\Roaming\npm-cache\4ad6a632-angular-ui-router-0-2-15.lock
+147 silly lockFile 4ad6a632-angular-ui-router-0-2-15 angular-ui-router@0.2.15
+148 silly lockFile 4ad6a632-angular-ui-router-0-2-15 angular-ui-router@0.2.15
+149 silly lockFile f588af00-angular-ui-router angular-ui-router@
+150 silly lockFile f588af00-angular-ui-router angular-ui-router@
+151 error Error: ENOENT, open 'C:\xampp\htdocs\laravel.blog\public\package.json'
+152 error If you need help, you may report this *entire* log,
+152 error including the npm and node versions, at:
+152 error     <http://github.com/npm/npm/issues>
+153 error System Windows_NT 6.2.9200
+154 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "public/" "angular" "satellizer" "angular-ui-router" "bootstrap"
+155 error cwd C:\xampp\htdocs\laravel.blog
+156 error node -v v0.10.36
+157 error npm -v 1.4.28
+158 error path C:\xampp\htdocs\laravel.blog\public\package.json
+159 error code ENOENT
+160 error errno 34
+161 verbose exit [ 34, true ]

@@ -1,0 +1,67 @@
+
+/*
+ * ARTISAN COMMANDS
+*/
+
+// RUN THE SERVE
+PHP ARTISAN SERVE
+
+// CREATE CONTROLLER
+php artisan make:controller UserController
+
+
+/*
+ * CONFIGURING JWT AUTH
+*/
+
+//JSON WEB TOKEN
+https://scotch.io/tutorials/token-based-authentication-for-angularjs-and-laravel-apps
+JWT {
+	HEADER
+	PAYLOAD
+	SIGNATURE
+}
+
+GERAR APP_KEY
+php artisan key:generate
+
+//composer
+"require": {
+       "php": ">=5.5.9",
+       "laravel/framework": "5.1.*",
+       "tymon/jwt-auth": "0.5.*"
+   },
+
+//config/app.php PROVIDERS
+Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class
+
+//config/app.php ALIASES
+'JWTAuth'   => Tymon\JWTAuth\Facades\JWTAuth::class,
+'JWTFactory' => Tymon\JWTAuth\Facades\JWTFactory::class
+
+//PUBLISH THE THE ASSETS
+php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\JWTAuthServiceProvider"
+
+//GENERATE JWT SECRET KEY TO jwt.php
+php artisan jwt:generate
+
+
+//FRONT END DEPENDENCIES
+cd public
+npm install angular satellizer angular-ui-router bootstrap
+
+//MIGRATE USER INFOS || CREATE TO DATABASE
+php artisan migrate
+
+//database/seeds/DatabaseSeeder.php ADD USERS TO SEED OR CREATE THEN
+//SAVING THE SEEDS TO THE DATABASE
+php artisan db:seed
+
+//ADD A AUTH CONTROLLER
+php artisan make:controller AuthenticateController
+
+//COMMENT THE STANDART CSRF TOKEN VERIFICATION - app/Http/Kernel.php
+
+//ADD SOME JWT MIDDLEWARES TO $routeMiddleware
+'jwt.auth' => \Tymon\JWTAuth\Middleware\GetUserFromToken::class,
+        'jwt.refresh' => \Tymon\JWTAuth\Middleware\RefreshToken::class
